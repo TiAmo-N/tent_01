@@ -3,8 +3,11 @@ from django.http import HttpResponse
 
 def index(request):
     """
-    ·ÃÎÊÊ×Ò³
+    è®¿é—®é¦–é¡µ
     :param request:
     :return:
     """
     return HttpResponse("index")
+
+def login(request):
+	return redirect("/index")
